@@ -46,12 +46,16 @@ void sortDescending(int first, int second, int third)
   }
 }
 
+<<<<<<< HEAD
 /*
  * swap switches the values of the two variables given.
  */
 void swap(int &first, int &second)
+=======
+void swap(int &a, int &b)
+>>>>>>> b7dc4582aab2ba2fa316d54a5adff5b0d4fadc76
 {
-  int temp = first;
-  first = second;
-  second = temp;
+  int temp = a;
+  a = b;
+  b = temp;
 }
